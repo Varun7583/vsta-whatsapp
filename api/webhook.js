@@ -1,7 +1,7 @@
 export default function handler(req, res) {
   if (req.method === "GET") {
     // Verification (for WhatsApp / Meta)
-    const VERIFY_TOKEN = "mytoken123";
+    const VERIFY_TOKEN = "vstamytoken7583";
 
     const mode = req.query["hub.mode"];
     const token = req.query["hub.verify_token"];
